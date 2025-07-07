@@ -1,0 +1,7 @@
+K8s-namespace
+kubectl get namespace
+kubectl create namespace monitor
+kubectl get namespace
+kubectl get nodes
+kubectl run nginx --image=nginx -n monitor
+kubectl describe pod nginx -n monitor
